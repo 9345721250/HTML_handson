@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB PAGE</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: cornsilk;
+        }
+        #courseTable{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div style="background-color: lightblue;">
+            <h1 id="table-heading">TABLES AND LISTS</h1>
+            <br><br>
+            <table id="courseTable">
+                <tr>
+                    <th>Roll No</th>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Department</th>
+                </tr>
+                <tr>
+                    <td>101</td>
+                    <td>ABCD</td>
+                    <td>Computer</td>
+                    <td>CS</td>
+                </tr>
+                <tr>
+                    <td>102</td>
+                    <td>EFGH</td>
+                    <td>Information Technology</td>
+                    <td>IT</td>
+                </tr>
+            </table>
+            <br>
+            <h2 id="courseHeading">No of Courses Available</h2>
+            <br>
+            <ul id="courseList">
+                <li>Computer science</li>
+                <li>Information Technology</li>
+                <li>Electronics</li>
+            </ul>
+        </div>
+        <br>
+        <div style="background-color: lightblue;">
+            <br>
+            <h1 id="imageHeading">Image Map</h1>
+            <br>
+            <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg" usemap="#workimage" width="400" height="380">
+            <map name="workimage">
+                <area coords="35,44,270,380" href="https://en.wikipedia.org/wiki/Peafowl">
+            </map>
+        </div>
+        <br>
+        <div  style="background-color: lightblue;">
+            <h1>FORMS AND FORM ELEMENTS</h1>
+            <br>
+            <form>
+                <label for="fname">Name:</label>
+                <input type="text" id="fname"><br>
+                <br>
+                <label for="password">Password:</label>
+                <input type="text"id="password"><br>
+                <br>
+                <label for="course">Courses:</label>
+                <select name="course" id="course">
+                    <option value="computer">
+                    <option value="information technology">
+                    <option value="electronics">
+                </select><br>
+                <br>
+                <label for="countries">Country:</label>
+                <input list="countries" name="countries">
+                <datalist>
+                    <option value="INDIA">
+                    <option value="SRI LANKA">
+                    <option value="NEPAL">
+                </datalist><br>
+                <br>
+                <button type="button" id=submit_btn>Submit</button>
+            </form>
+        </div>
+        <br>
+        <div style="background-color: lightblue;">
+            <br>
+            <h1 id="frameHeading">FRAMES IN HTML</h1><br>
+            <br>
+            <iframe src="https://en.wikipedia.org/wiki/Laptop" id="frameImage1"></iframe>
+            <iframe src="https://en.wikipedia.org/wiki/Laptop" id="frameImage2"></iframe>
+            <br>
+        </div>
+        <br>
+    </div>
+</body>
+</html>

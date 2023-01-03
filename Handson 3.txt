@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #titleName{
+            text-align:center;
+            color:black;
+        }
+        #vegetableSaladImage{
+            padding-left: 50%;
+        }
+        #benefits{
+            color:blueviolet;
+            text-align: center;
+        }
+        #benefitsParagraph{
+            color:brown;
+            text-align: center;
+        }
+        #steps{
+            color:blueviolet;
+            text-align: center;
+        }
+        #stepForVegetableSalad{
+            color:brown;
+            text-align: center;
+        }
+        #footerText{
+            color:brown;
+            text-align: center;
+        }
+    </style>
+    <title>Vegetable Salad</title>
+</head>
+<body style="background-color: lightgreen;">
+    <div>
+        <div>
+            <h1 id="titleName">VEGETABLE SALAD</h1>
+            <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/vegetable-salad-recipe.jpg" width="150px" height="100px" id="vegetableSaladImage">
+        </div>
+        <div>
+            <h2 id="benefits">Benefits of Vegetable Salad</h2>
+        </div>
+        <div>
+            <p id="benefitsParagraph">Salad greens contain Vitamin A, Vitamin C, beta-carotene, calcium, folate, fiber, and phytonutrients. Leafy vegetables are a good choice for a healthful diet because they do not contain cholesterol and are naturally low in calories and sodium.</p>
+        </div>
+        <div>
+            <h2 id="steps">Steps to make Vegetable Salad</h2>
+        </div>
+        <div>
+            <ul id="stepForVegetableSalad">
+                <li>Put all your mixed greens and spinach in a large bowl.</li>
+                <li>Add in the cucumbers, carrots, bell pepper and tomatoes.</li>
+                <li>Top with the tasty toppings, which are your pumpkin seeds, basil leaves and chickpeas.</li>
+                <li>In a separate bowl, place all dressing ingredients and whisk until combined.</li>
+                <li>Toss all salad ingredients in a medium bowl.</li>
+                <li>Dress and plate your salad.</li>
+            </ul>
+        </div>
+        <div>
+            <footer id="footertext">This easy vegetable salad is packed with a variety of summer produced with all the texture and colors ever want.</footer>
+        </div>
+    </div>
+</body>
+</html>
